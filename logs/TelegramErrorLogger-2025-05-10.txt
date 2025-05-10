@@ -1,0 +1,45 @@
+============[Date]============
+[ 2025-05-10 15:52:29  Europe/Berlin ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message to edit not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 428928243
+ref.callback_query.id= 4127559428031166320
+ref.callback_query.from.id= 7403473262
+ref.callback_query.from.is_bot= false
+ref.callback_query.from.first_name= Arda Mosafer
+ref.callback_query.from.username= Mosafer_001
+ref.callback_query.from.language_code= fa
+ref.callback_query.message.message_id= 10
+ref.callback_query.message.from.id= 7983552016
+ref.callback_query.message.from.is_bot= true
+ref.callback_query.message.from.first_name= چت ناشناس 🎲
+ref.callback_query.message.from.username= rickrandomchatbot
+ref.callback_query.message.chat.id= 7403473262
+ref.callback_query.message.chat.first_name= Arda Mosafer
+ref.callback_query.message.chat.username= Mosafer_001
+ref.callback_query.message.chat.type= private
+ref.callback_query.message.date= 1746884515
+ref.callback_query.message.text= خب، تو وارد شدی. تبریک، یا شایدم تسلیت. این یه ربات چت تصادفیه. دکمه رو بزن، و صبر کن تا یه غریبه پیداش شه. هویتت محفوظ می‌مونه، البته اگه خودت لو ندی.🪐
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.text= بزن بریم😎
+ref.callback_query.message.reply_markup.inline_keyboard.0.0.callback_data= /home
+ref.callback_query.chat_instance= -5638112292461856396
+ref.callback_query.data= /home
+
+
+[ref]
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u0634\u0631\u0648\u0639 \u0686\u062a \u062a\u0635\u0627\u062f\u0641\u06cc\ud83d\udd0d","callback_data":"\/random"}]]}
+ref.text= حالا وقتشه موتور ترجمه مد نظرت رو انتخاب کنی!
+ref.message_id= 
+
+
+============[Trace]===========
+#0 C:\xampp\htdocs\rick-randomchat\Telegram.php(1864): TelegramErrorLogger::log(Array, Array)
+#1 C:\xampp\htdocs\rick-randomchat\Telegram.php(125): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 C:\xampp\htdocs\rick-randomchat\Telegram.php(693): Telegram->endpoint('editMessageText', Array)
+#3 C:\xampp\htdocs\rick-randomchat\index.php(44): Telegram->editMessageText(Array)
+#4 {main}
+
